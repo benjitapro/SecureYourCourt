@@ -75,14 +75,14 @@ class RegistroUsuarioTest {
             jugadores = "",
             descripcion = "",
             ubicacion = "",
-            precioHora = 10000.0,
+            precioHora = 10000,
             imagen = ""
         )
 
         carrito.agregarAlCarrito(cancha)
         carrito.agregarAlCarrito(cancha)
 
-        assertEquals(20000.0, carrito.total(), 0.0)
+        assertEquals(20000, carrito.total())
     }
     @Test
     fun `agregar jugador debe aumentar la lista`() {

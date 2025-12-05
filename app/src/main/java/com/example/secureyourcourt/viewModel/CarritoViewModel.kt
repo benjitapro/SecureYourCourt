@@ -42,7 +42,7 @@ class CarritoViewModel : ViewModel() {
     }
 
     fun total(): Int {
-        return items.sumOf { it.cancha.precioHora * it.cantidad }
+        return items.sumOf { it.cancha.precioHora * it.cantidad }.toInt()
     }
 
     fun vaciarCarrito() {
