@@ -20,7 +20,7 @@ class CanchaRepository {
     "jugadores": "La capacidad para la cancha son de 22 jugadores.",
     "descripcion": "Cancha de Futbol 11, Pasto Sintético.",
     "ubicacion": "C. Diecinueve A 1066, Peñalolén",
-    "precioHora": 55600.0,
+    "precioHora": 55600,
     "imagen": "futbol"
   },
   {
@@ -32,7 +32,7 @@ class CanchaRepository {
     "jugadores": "Maximo son 14 jugadores en cancha 7 por cada lado",
     "descripcion": "Una cancha a nivel competitivo ideal para torneos de alto rendimiento.",
     "ubicacion": "Francisco de Villagra 6581, La reina",
-    "precioHora": 15000.0,
+    "precioHora": 15000,
     "imagen": "futbolito"
   },
   {
@@ -44,7 +44,7 @@ class CanchaRepository {
     "jugadores": "Son 12 jugadores en cancha 6 por cada lado",
     "descripcion": "Una cancha a nivel competitivo ideal para los atletas de alto rendimiento.",
     "ubicacion": "Francisco de Villagra 6581, La reina",
-    "precioHora": 15000.0,
+    "precioHora": 15000,
     "imagen": "voley"
   },
   {
@@ -56,7 +56,7 @@ class CanchaRepository {
     "jugadores": "Lo maximo son 4 jugadores lo normal son 2 o 1 por cada lado",
     "descripcion": "Cancha de nivel competitivo ideal para el alto rendimiento.",
     "ubicacion": "Francisco de Villagra 6581, La reina",
-    "precioHora": 18000.0,
+    "precioHora": 18000,
     "imagen": "tenis"
   },
   {
@@ -68,7 +68,7 @@ class CanchaRepository {
     "jugadores": " Máximo 10 jugadores 5 por lado.",
     "descripcion": "Cancha de madera, ideal para entrenamientos de alto rendimiento.",
     "ubicacion": "Francisco de Villagra 6581, La reina",
-    "precioHora": 21500.0,
+    "precioHora": 21500,
     "imagen": "basquet"
   }
 ]
