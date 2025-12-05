@@ -1,0 +1,39 @@
+package com.example.secureyourcourt.ui.theme
+
+
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+
+private val LightColors = lightColorScheme(
+    primary = BluePrimary,
+    secondary = BlueSecondary,
+    background = White,
+    surface = White,
+    onPrimary = White,
+    onSecondary = White,
+    onBackground = DarkText,
+    onSurface = DarkText
+)
+
+private val DarkColors = darkColorScheme(
+    primary = BluePrimary,
+    secondary = BlueSecondary,
+    background = DarkText,
+    surface = DarkText,
+    onPrimary = White,
+    onSecondary = White,
+    onBackground = White,
+    onSurface = White
+)
+
+@Composable
+fun CanchasTheme(content: @Composable () -> Unit) {
+    val colors = if (isSystemInDarkTheme()) DarkColors else LightColors
+
+    MaterialTheme(
+        colorScheme = colors,
+        typography = AppTypography,
+        content = content
+    )
+}
